@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  background-color: #181b25;
+  color: #e3e1de;
 }
 
 body {
@@ -9,6 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
 }
 
 code {
@@ -35,7 +39,7 @@ a:active {
 }
 
 .selected {
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid #32746d;
 }
 
 .content {
@@ -66,15 +70,26 @@ a:active {
   padding-bottom: 40px;
   padding: 5px;
   margin-top: 30px;
+  cursor: pointer;
+  padding: 10px;
 }
 
 .experience-row:hover {
-  background-color: aliceblue;
+  background-color: rgba(40, 45, 61, 0.45);
+  border-radius: 20px;
+  /* border: 1px solid rgba(255, 255, 255, 0.25); */
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+}
+
+.experience-row:hover .experience-header {
+  color: #8dcec8;
 }
 
 .chip {
   border-radius: 25px;
   padding: 5px 10px 5px 10px;
-  background-color: lightgrey;
-  border: 1px solid red;
+  background-color: #12151c;
+  color: white;
+  border: 1px solid #32746d;
 }

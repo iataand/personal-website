@@ -19,13 +19,28 @@ function App() {
               digital experiences for the web.
             </p>
           </div>
-          <Link activeClass="selected" spy to="about">
+          <Link
+            activeClass="selected"
+            spy
+            to="about"
+            style={{ cursor: "pointer" }}
+          >
             About
           </Link>
-          <Link activeClass="selected" spy to="experience">
+          <Link
+            activeClass="selected"
+            spy
+            to="experience"
+            style={{ cursor: "pointer" }}
+          >
             Work Experience
           </Link>
-          <Link activeClass="selected" spy to="projects">
+          <Link
+            activeClass="selected"
+            spy
+            to="projects"
+            style={{ cursor: "pointer" }}
+          >
             Projects
           </Link>
           <div style={{ display: "flex", gap: "20px", marginTop: "260px" }}>
@@ -37,11 +52,19 @@ function App() {
           </div>
         </div>
         <div className="scrollable">
-          <img
-            src={require("./images/programmer.jpg")}
-            alt="programmer"
-            style={{ width: "50%" }}
-          />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginBottom: "10px",
+            }}
+          >
+            <img
+              src={require("./images/pro_2.png")}
+              alt="programmer"
+              style={{ width: "50%" }}
+            />
+          </div>
           <div id="about">
             <p>
               Back in 2012, I decided to try my hand at creating custom Tumblr
@@ -71,7 +94,10 @@ function App() {
                 1/08/2021 -- PRESENT
               </div>
               <div>
-                <div style={{ fontWeight: "bold" }}>
+                <div
+                  className="experience-header"
+                  style={{ fontWeight: "bold" }}
+                >
                   Frontend Developer - Luxoft
                 </div>
                 <p>
