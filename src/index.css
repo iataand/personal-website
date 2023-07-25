@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 20px;
+  max-width: 440px;
+  margin-top: 80px;
+  position: fixed;
+}
+
+.selected {
+  border-bottom: 1px solid red;
+}
+
+.content {
+  display: flex;
+}
+
+.scrollable {
+  display: flex;
+  flex-direction: column;
+  max-width: 575px;
+  height: 100vh;
+  margin-left: 500px;
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+
+.experience-row {
+  display: flex;
+  gap: 25px;
+  padding-bottom: 40px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.experience-row:hover {
+  background-color: aliceblue;
+}
+
+.chip {
+  border-radius: 25px;
+  padding: 5px 10px 5px 10px;
+  background-color: lightgrey;
+  border: 1px solid red;
+}
