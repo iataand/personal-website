@@ -213,6 +213,7 @@ function App() {
                       height: "23%",
                       marginTop: "23px",
                     }}
+                    alt="project-img"
                   />
                   <div>
                     <div style={{ display: "flex" }}>
@@ -245,6 +246,7 @@ function App() {
                       height: "23%",
                       marginTop: "23px",
                     }}
+                    alt="project-img"
                   />
                   <div>
                     <div style={{ display: "flex" }}>
@@ -274,6 +276,7 @@ function App() {
                       height: "23%",
                       marginTop: "23px",
                     }}
+                    alt="project-img"
                   />
                   <div>
                     <div style={{ display: "flex" }}>
